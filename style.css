@@ -3,3 +3,41 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --player-color: hsl(240, 100%, 50%);
+  --wall-color: hsl(230, 60%, 15%);
+  --body-color: #121212;
+  --text-color: #ededed;
+}
+
+html,
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+  width: 100svw;
+  height: 90svh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#title {
+  text-align: center;
+  margin: 0.2em 0;
+}
+
+#play-area {
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  outline: 5px var(--wall-color) solid;
+  position: relative;
+}
+
+#player {
+  position: absolute;
+  height: 2em;
+  width: 2em;
+  background-color: var(--player-color);
+  transition: all 0.1s linear;
+}
