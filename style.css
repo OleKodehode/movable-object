@@ -40,4 +40,5 @@ body {
   width: 2em;
   background-color: var(--player-color);
   transition: all 0.1s linear;
+  border-radius: 50%;
 }
