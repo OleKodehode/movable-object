@@ -5,7 +5,7 @@
 }
 
 :root {
-  --player-color: hsl(240, 100%, 50%);
+  --player-color: hsl(20, 100%, 50%);
   --wall-color: hsl(230, 60%, 15%);
   --body-color: #121212;
   --text-color: #ededed;
@@ -41,4 +41,5 @@ body {
   background-color: var(--player-color);
   transition: all 0.1s linear;
   border-radius: 50%;
+  box-shadow: 0 0 20px 10px orange;
 }
